@@ -1,0 +1,38 @@
+/* Bot Response Formatting */
+.chat-heading-1 {
+    color: #289b2c;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .chat-heading-2 {
+    color: #009007;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight:bold;
+  }
+  
+  .chat-list-item {
+    margin-left: 15px;
+    position: relative;
+    padding-left: 15px;
+    color: #333;
+  }
+  
+  .chat-list-item::before {
+    content: '•';
+    color: #2a9e2e;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+   .chat-important {
+    color: #369539;
+    font-weight: bold;
+  }
+  
+  .chat-spacing {
+    height: 10px;
+  }
+  
