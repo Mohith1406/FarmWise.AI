@@ -45,6 +45,11 @@ FarmWise.AI is an *AI-powered smart farming platform* designed to help *smallhol
   ✅ *Soil conditions*  
 - Supports *voice-based interaction* for easy access.  
 
+### *🗣️ Text-to-Speech & Speech-to-Text Support*  
+- Converts *chatbot responses into audio* for farmers who prefer listening.  
+- Allows *voice input* using *speech-to-text* technology.  
+- Enhances *accessibility* for low-literacy users and supports *hands-free interaction*.  
+
 ### *🌦 Weather Forecast & Farming Insights*  
 - Provides *real-time weather updates* based on farm location.  
 - Alerts on *rainfall, temperature changes, and extreme conditions*.  
@@ -58,7 +63,7 @@ FarmWise.AI is an *AI-powered smart farming platform* designed to help *smallhol
 ### *🌍 Multilingual Support (Language Switching)*  
 - Farmers can *switch languages instantly* for better understanding.  
 - Uses *Google Cloud Translation API* to support *regional languages*.  
-- Enables *better accessibility* for farmers worldwide.  
+- Enables *better accessibility* for farmers worldwide*.  
 
 ---
 
@@ -84,6 +89,8 @@ FarmWise.AI is an *AI-powered smart farming platform* designed to help *smallhol
 - *Weather Data:* OpenWeather API  
 - *Language Processing:* Google Gemini API (for text summarization, predictions, and recommendations)  
 - *Voice Recognition & Language Translation:* Google Cloud Translation API  
+- *Text-to-Speech (TTS):* Google Text-to-Speech API  
+- *Speech-to-Text (STT):* Google Speech-to-Text API  
 
 ### *Development & Collaboration*  
 - *Google IDX:* Cloud-based development and collaboration environment  
@@ -111,6 +118,8 @@ FarmWise.AI is an *AI-powered smart farming platform* designed to help *smallhol
 - Responds in *regional languages* to help farmers.  
 - Uses *Natural Language Processing (NLP)* for real-time advice.  
 - Supports *voice-based input and responses* for ease of use.  
+- Integrated with *Text-to-Speech* for audible replies.  
+- Supports *Speech-to-Text* for spoken queries.  
 
 ---
 
@@ -119,36 +128,38 @@ FarmWise.AI is an *AI-powered smart farming platform* designed to help *smallhol
 To set up the project locally:  
 
 ### *1️⃣ Clone the Repository*  
-bash
+```bash
 git clone https://github.com/Mohith1406/FarmWise.AI.git  
 cd FarmWise.AI/FarmWise.AI  
-
+```
 
 ### *2️⃣ Backend Setup*  
 - Create a virtual environment:  
-bash
+```bash
 python3 -m venv venv  
 source venv/bin/activate  
+```
 
 - Install dependencies:  
-bash
+```bash
 pip install -r requirements.txt  
-
+```
 
 ### *3️⃣ Frontend Setup*  
 - Navigate to the frontend directory:  
-bash
+```bash
 cd frontend  
+```
 
 - Install dependencies:  
-bash
+```bash
 npm install  
-
+```
 
 ### *4️⃣ Configure Environment Variables*  
 - Set up API keys for:  
   ✅ *OpenWeather API* (Weather data)  
   ✅ *Google Gemini API* (Chatbot & NLP)  
   ✅ *Google Cloud Translation API* (Multilingual support)  
-
----
+  ✅ *Google Text-to-Speech API* (TTS)  
+  ✅ *Google Speech-to-Text API* (STT)  
